@@ -1,0 +1,4 @@
+[14-May-2020 10:23:12 UTC] PHP Fatal error:  Class 'Auth' not found in /home/basket1/public_html/resources/views/user/order/details.blade.php on line 32
+[03-Jun-2020 15:33:04 UTC] PHP Fatal error:  Class 'Auth' not found in /home/basket1/public_html/resources/views/user/order/details.blade.php on line 32
+[05-Jun-2020 17:22:27 UTC] PHP Fatal error:  Class 'Auth' not found in /home/basket1/public_html/resources/views/user/order/details.blade.php on line 32
+[06-Jun-2020 15:36:52 UTC] PHP Fatal error:  Class 'Auth' not found in /home/basket1/public_html/resources/views/user/order/details.blade.php on line 32

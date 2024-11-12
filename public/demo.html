@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <!--<script src="https://network.gateway.mastercard.com/checkout/version/56/checkout.js"
+                data-error="errorCallback"
+                data-cancel="cancelCallback">
+        </script> -->
+        <script src="https://test-gateway.mastercard.com/checkout/version/56/checkout.js"
+                data-error="errorCallback"
+                data-cancel="cancelCallback">
+        </script>
+        <script type="text/javascript">
+            function errorCallback(error) {
+                  console.log(JSON.stringify(error));
+            }
+            function cancelCallback() {
+                  console.log('Payment cancelled');
+            }
+
+            Checkout.configure({
+                merchant: 'TESTBATQNB01',
+                order: {
+                    amount: function() {
+                        //Dynamic calculation of amount
+                        return 80 + 20;
+                    },
+                    currency: 'QAR',
+                    description: 'Ordered By Unais',
+                    id: '003'
+                },
+                interaction: {
+                    operation: 'PURCHASE', // set this field to 'PURCHASE' for Hosted Checkout to perform a Pay Operation.
+                    merchant: {
+                        name: 'BASKET TRADING IPG',
+                        address: {
+                            line1: '200 Sample St',
+                            line2: '1234 Example Town'            
+                        }    
+                    }/*,
+                    cancelUrl: 'http://localhost/laravel/work_buk/MPSC/demo.html'*/
+                }
+            });
+        </script>
+    </head>
+    <body>
+        ...
+        <input type="button" value="Pay with Lightbox" onclick="Checkout.showLightbox();" />
+        <input type="button" value="Pay with Payment Page" onclick="Checkout.showPaymentPage();" />
+        ...
+    </body>
+</html>

@@ -1,0 +1,6 @@
+[12-May-2020 16:20:22 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10
+[20-May-2020 01:05:22 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10
+[21-May-2020 21:59:59 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10
+[25-May-2020 13:45:16 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10
+[31-May-2020 01:30:59 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10
+[03-Jun-2020 15:01:15 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/basket1/public_html/app/Exceptions/Handler.php on line 10

@@ -1,0 +1,2 @@
+[07-Nov-2020 11:53:21 CST6CDT] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/customer/www/basket.qa/public_html/tests/Feature/ExampleTest.php on line 8
+[06-Feb-2021 08:39:26 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/customer/www/basket.qa/public_html/tests/Feature/ExampleTest.php on line 8

@@ -1,0 +1,7 @@
+[12-May-2020 16:18:28 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[20-May-2020 00:47:26 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[21-May-2020 21:58:58 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[25-May-2020 13:45:04 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[31-May-2020 02:56:09 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[02-Jun-2020 22:34:18 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9
+[03-Jun-2020 15:01:14 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/basket1/public_html/app/Console/Kernel.php on line 9

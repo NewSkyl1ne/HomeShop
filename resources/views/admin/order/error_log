@@ -1,0 +1,6 @@
+[14-May-2020 10:54:22 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/invoice.blade.php on line 96
+[14-May-2020 10:54:26 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/print.blade.php on line 116
+[14-May-2020 10:54:31 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/details.blade.php on line 95
+[03-Jun-2020 15:31:16 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/details.blade.php on line 95
+[03-Jun-2020 15:31:17 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/invoice.blade.php on line 96
+[03-Jun-2020 15:31:19 UTC] PHP Fatal error:  Class 'DB' not found in /home/basket1/public_html/resources/views/admin/order/print.blade.php on line 116

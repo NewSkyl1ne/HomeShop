@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS JavaScript Tutorial - Scale dependent layers visibility in LayerList</title>
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
+  <script src="https://js.arcgis.com/4.12/"></script>
+
+  <script>  
+      require([
+        "esri/Map",
+        "esri/geometry/Point",
+        "esri/views/MapView",
+        "esri/layers/FeatureLayer",
+        "esri/widgets/LayerList"
+      ], function(Map, Point, MapView, FeatureLayer, LayerList) {
+
+      var map = new Map({
+        basemap: {
+          portalItem: {
+            id: "7aea6fa913a94176a1074edb40690318" // Topo RD
+          }
+        }
+      });
+
+      var popupTemplate = { // autocasts as new PopupTemplate()
+        title: "The municipality of {Gemeentenaam}",
+        content: "Municipal Code: {GM_Code}"
+      };
+
+      var renderer = {
+        type: "simple",  // autocasts as new SimpleRenderer()
+        symbol: {
+          type: "simple-fill",  // autocasts as new SimpleFillSymbol()
+          style: "none", // The polygon has no fill
+          outline: {  // autocasts as new SimpleLineSymbol()
+            width: 1.5,
+            color: "#F5B041" // Hex Color Code
+          }
+        }
+      };
+      
+      var dutchMunicipalitiesLayer = new FeatureLayer({
+        url: "https://services.arcgis.com/nSZVuSZjHpEZZbRo/arcgis/rest/services/Bestuurlijke_Grenzen_Gemeenten_2019/FeatureServer/0",
+        title: "Municipalities (2019)",
+        popupTemplate: popupTemplate,
+        renderer: renderer,
+        minScale: 500000
+      });
+
+      popupTemplate.title = "The province of {Provincienaam}";
+      popupTemplate.content = "";
+      
+      renderer.symbol.outline.width = 2.5;
+      renderer.symbol.outline.color = "#8B4513";
+
+      var dutchProvincesLayer = new FeatureLayer({
+        url: "https://services.arcgis.com/nSZVuSZjHpEZZbRo/ArcGIS/rest/services/Bestuurlijke_Grenzen_Provincies_2019/FeatureServer/0",
+        title: "Provinces (2019)",
+        popupTemplate: popupTemplate,
+        renderer: renderer
+      });
+
+      map.addMany([dutchMunicipalitiesLayer, dutchProvincesLayer]);
+
+       var view = new MapView({
+         spatialReference: 28992, 
+         container: "viewDiv",
+         map: map,
+         center: new Point({x: 155000, y: 463000, spatialReference: 28992}),
+         zoom: 3
+       });
+
+      var layerList = new LayerList({
+        view: view
+      });
+
+      view.ui.add(layerList, {
+        position: "top-right"
+      });
+
+      // watch handler: the callback fires each time the scale of the view changes
+      var handle = view.watch('scale', function(newScale) {
+          console.log("Scale: ", newScale);
+          if (newScale > 500000) {
+              dutchMunicipalitiesLayer.listMode = 'hide';
+          } else {
+              dutchMunicipalitiesLayer.listMode = 'show';
+          }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
+</html>

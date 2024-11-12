@@ -1,0 +1,40 @@
+[28-Sep-2020 18:58:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/filesystems.php on line 16
+[28-Sep-2020 19:01:21 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/session.php on line 19
+[28-Sep-2020 19:17:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/cache.php on line 18
+[28-Sep-2020 19:46:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/database.php on line 16
+[28-Sep-2020 19:50:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/app.php on line 16
+[28-Sep-2020 19:56:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/customer/www/basket.qa/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/view.php on line 17
+[28-Sep-2020 20:07:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/services.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/services.php on line 52
+[28-Sep-2020 20:18:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/mail.php on line 19
+[28-Sep-2020 20:48:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/queue.php on line 18
+[28-Sep-2020 21:08:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/basket.qa/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/basket.qa/public_html/config/broadcasting.php on line 18

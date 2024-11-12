@@ -1,0 +1,1 @@
+[03-Oct-2020 06:46:39 CST6CDT] PHP Fatal error:  Class 'Illuminate\Database\Seeder' not found in /home/customer/www/basket.qa/public_html/database/seeds/DatabaseSeeder.php on line 5

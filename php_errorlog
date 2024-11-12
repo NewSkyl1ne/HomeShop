@@ -1,0 +1,13 @@
+[13-Sep-2020 11:26:16 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:26:29 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:26:33 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:27:27 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:29:08 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:29:08 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:29:09 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:29:10 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:30:06 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:30:20 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:30:34 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[13-Sep-2020 11:30:36 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/customer/www/new.basket.qa/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[30-Sep-2020 15:21:42 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/customer/www/basket.qa/public_html/app/Http/Controllers/Admin/ProductController.php on line 17
